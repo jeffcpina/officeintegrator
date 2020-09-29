@@ -1,14 +1,14 @@
 <?php
 
-namespace officeintegrator\demo;
+namespace jeffcpina\officeintegrator\demo;
+
+use jeffcpina\officeintegrator\controllers\SheetController;
 
 DEFINE('DS', DIRECTORY_SEPARATOR); 
 
-include_once __DIR__ . DS . '..' . DS . 'controllers'. DS. 'SheetController.php';
-
 $demo_file = __DIR__ . DS . 'files' . DS . 'ZohoSheet.xlsx';
 
-use officeintegrator\controllers\SheetController;
+
 
 $controller = SheetController::getInstance();
 

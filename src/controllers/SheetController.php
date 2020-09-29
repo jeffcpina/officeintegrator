@@ -1,14 +1,9 @@
 <?php
 
-namespace officeintegrator\controllers;
+namespace jeffcpina\officeintegrator\controllers;
 
-DEFINE('DS', DIRECTORY_SEPARATOR); 
-
-include_once __DIR__ . DS . '..' . DS .'APIHelper.php';
-include_once __DIR__ . DS . '..' . DS .'configurations' . DS . 'AppConfiguration.php';
-
-use officeintegrator\APIHelper;
-use officeintegrator\configurations\AppConfiguration;
+use jeffcpina\officeintegrator\APIHelper;
+use jeffcpina\officeintegrator\configurations\AppConfiguration;
 
 class SheetController {
 

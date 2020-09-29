@@ -1,0 +1,17 @@
+{
+    "name": "jeffcpina/officeintegrator",
+    "description": "Rewritten Zohowriter PHP-API",
+    "keywords": ["zoho writer","PHP-API"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Prabakaran Raburaj",
+            "email": "raburaji93@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "jeffcpina\\officeintegrator\\": "src/"
+        }
+    }
+}

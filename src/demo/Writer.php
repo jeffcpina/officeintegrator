@@ -1,10 +1,10 @@
 <?php
 
-namespace officeintegrator\demo;
+namespace jeffcpina\officeintegrator\demo;
 
-DEFINE('DS', DIRECTORY_SEPARATOR); 
+use jeffcpina\officeintegrator\controllers\WriterController;
 
-include_once __DIR__ . DS . '..' . DS .'controllers' . DS . 'WriterController.php';
+DEFINE('DS', DIRECTORY_SEPARATOR);
 
 $demo_resource_dir = __DIR__ . DS . 'files' . DS;
 
@@ -16,7 +16,7 @@ $compare_demo_file2 = $demo_resource_dir . 'CompareDocument2.docx';
 
 $coverted_output_file = $demo_resource_dir . 'ZohoWriterConverted.pdf';
 
-use officeintegrator\controllers\WriterController;
+
 
 $controller = WriterController::getInstance();
 

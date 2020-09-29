@@ -1,5 +1,5 @@
 <?php
-namespace officeintegrator\configurations;
+namespace jeffcpina\officeintegrator\configurations;
 
 class AppConfiguration {
 

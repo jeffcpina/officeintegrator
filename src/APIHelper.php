@@ -1,10 +1,8 @@
 <?php
 
-namespace officeintegrator;
+namespace jeffcpina\officeintegraor;
 
-include_once __DIR__ . '/configurations/AppConfiguration.php';
-
-use officeintegrator\configurations\AppConfiguration;
+use jeffcpina\officeintegrator\configurations\AppConfiguration;
 
 /**
  * API utility class
